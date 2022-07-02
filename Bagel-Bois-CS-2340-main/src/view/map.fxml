@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="s">
+   <children>
+      <AnchorPane layoutX="-8.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutY="418.0" stroke="#e4da7c" strokeType="INSIDE" width="250.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="171.0" layoutX="193.0" layoutY="299.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="193.0" layoutY="280.0" stroke="#e4da7c" strokeType="INSIDE" width="250.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="301.0" layoutX="390.0" layoutY="280.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="197.0" layoutY="529.0" stroke="#e4da7c" strokeType="INSIDE" width="250.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="301.0" layoutX="197.0" layoutY="529.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="199.0" layoutY="778.0" stroke="#e4da7c" strokeType="INSIDE" width="465.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="643.0" layoutX="607.0" layoutY="187.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="419.0" layoutY="187.0" stroke="#e4da7c" strokeType="INSIDE" width="241.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="171.0" layoutX="415.0" layoutY="68.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="423.0" layoutY="68.0" stroke="#e4da7c" strokeType="INSIDE" width="595.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="301.0" layoutX="963.0" layoutY="68.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="770.0" layoutY="317.0" stroke="#e4da7c" strokeType="INSIDE" width="250.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="202.0" layoutX="770.0" layoutY="317.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="770.0" layoutY="467.0" stroke="#e4da7c" strokeType="INSIDE" width="250.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="202.0" layoutX="968.0" layoutY="467.0" stroke="#e4da7c" strokeType="INSIDE" width="52.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="968.0" layoutY="617.0" stroke="#e4da7c" strokeType="INSIDE" width="317.0" AnchorPane.bottomAnchor="411.0" AnchorPane.leftAnchor="968.0" AnchorPane.rightAnchor="635.0" AnchorPane.topAnchor="617.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="202.0" layoutX="1228.0" layoutY="617.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="57.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="1228.0" layoutY="767.0" stroke="#e4da7c" strokeType="INSIDE" width="229.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="52.0" layoutX="1452.0" layoutY="176.0" stroke="#e4da7c" strokeType="INSIDE" width="332.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4da7c" height="643.0" layoutX="1452.0" layoutY="176.0" stroke="#e4da7c" strokeType="INSIDE" width="57.0" />
+            <Circle centerX="1235.0" centerY="423.0" fill="DODGERBLUE" radius="146.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle centerX="818.0" centerY="730.0" fill="DODGERBLUE" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="114.0" layoutX="1774.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="133.0" />
+            <ChoiceBox layoutX="1567.0" layoutY="56.0" prefWidth="150.0" />
+            <Button layoutX="1717.0" layoutY="56.0" mnemonicParsing="false" text="Confirm" />
+            <Button layoutX="1724.0" layoutY="88.0" mnemonicParsing="false" text="Reset" />
+            <Button layoutX="1804.0" layoutY="56.0" mnemonicParsing="false" text="START GAME" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
